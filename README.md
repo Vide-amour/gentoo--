@@ -18,6 +18,11 @@ Ubuntu联网大家都会吧应该。
 
 硬盘分区。
 首先打开终端，输入 sudo -i ，输入lsblk查看当前的电脑分区。这里使用cfdisk进行分区，输入 cfdisk /dev/sda 进行分区。
+sda1    /efi
+sda2    /
+sda3    swap
+
+格式化分区。
 
 
 
