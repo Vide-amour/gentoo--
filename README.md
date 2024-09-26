@@ -52,7 +52,8 @@ stage文件的位置在（我这里选择openrc，当然你也可以选择system
 wget (刚刚复制的链接粘贴过来然后回车)
 下载完后安装stage
 tar xpvf stage3-*.tar.xz --xattrs-include＝'*.*' --numeric-owner
-
+现在可以过河拆桥
+rm -rf <stage文件名>
 
 
 
